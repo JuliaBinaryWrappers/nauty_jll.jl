@@ -3,6 +3,14 @@ export NRswitchg, addedgeg, amtog, biplabg, blisstog, catg, checks6, complg, con
 
 using GMP_jll
 JLLWrappers.@generate_wrapper_header("nauty")
+JLLWrappers.@declare_library_product(libnauty, "libnauty.so.2")
+JLLWrappers.@declare_library_product(libnautyA1, "libnautyA1.so.2")
+JLLWrappers.@declare_library_product(libnautyL0, "libnautyL0.so.2")
+JLLWrappers.@declare_library_product(libnautyL1, "libnautyL1.so.2")
+JLLWrappers.@declare_library_product(libnautyS0, "libnautyS0.so.2")
+JLLWrappers.@declare_library_product(libnautyS1, "libnautyS1.so.2")
+JLLWrappers.@declare_library_product(libnautyW0, "libnautyW0.so.2")
+JLLWrappers.@declare_library_product(libnautyW1, "libnautyW1.so.2")
 JLLWrappers.@declare_executable_product(NRswitchg)
 JLLWrappers.@declare_executable_product(addedgeg)
 JLLWrappers.@declare_executable_product(amtog)
@@ -31,14 +39,6 @@ JLLWrappers.@declare_executable_product(gentourng)
 JLLWrappers.@declare_executable_product(gentreeg)
 JLLWrappers.@declare_executable_product(hamheuristic)
 JLLWrappers.@declare_executable_product(labelg)
-JLLWrappers.@declare_library_product(libnauty, "libnauty.so.2")
-JLLWrappers.@declare_library_product(libnautyA1, "libnautyA1.so.2")
-JLLWrappers.@declare_library_product(libnautyL0, "libnautyL0.so.2")
-JLLWrappers.@declare_library_product(libnautyL1, "libnautyL1.so.2")
-JLLWrappers.@declare_library_product(libnautyS0, "libnautyS0.so.2")
-JLLWrappers.@declare_library_product(libnautyS1, "libnautyS1.so.2")
-JLLWrappers.@declare_library_product(libnautyW0, "libnautyW0.so.2")
-JLLWrappers.@declare_library_product(libnautyW1, "libnautyW1.so.2")
 JLLWrappers.@declare_executable_product(linegraphg)
 JLLWrappers.@declare_executable_product(listg)
 JLLWrappers.@declare_executable_product(multig)
@@ -55,6 +55,54 @@ JLLWrappers.@declare_executable_product(vcolg)
 JLLWrappers.@declare_executable_product(watercluster2)
 function __init__()
     JLLWrappers.@generate_init_header(GMP_jll)
+    JLLWrappers.@init_library_product(
+        libnauty,
+        "lib/libnauty.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libnautyA1,
+        "lib/libnautyA1.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libnautyL0,
+        "lib/libnautyL0.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libnautyL1,
+        "lib/libnautyL1.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libnautyS0,
+        "lib/libnautyS0.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libnautyS1,
+        "lib/libnautyS1.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libnautyW0,
+        "lib/libnautyW0.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libnautyW1,
+        "lib/libnautyW1.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         NRswitchg,
         "bin/NRswitchg",
@@ -193,54 +241,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         labelg,
         "bin/labelg",
-    )
-
-    JLLWrappers.@init_library_product(
-        libnauty,
-        "lib/libnauty.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libnautyA1,
-        "lib/libnautyA1.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libnautyL0,
-        "lib/libnautyL0.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libnautyL1,
-        "lib/libnautyL1.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libnautyS0,
-        "lib/libnautyS0.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libnautyS1,
-        "lib/libnautyS1.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libnautyW0,
-        "lib/libnautyW0.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libnautyW1,
-        "lib/libnautyW1.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_executable_product(
