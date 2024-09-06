@@ -1,127 +1,127 @@
 [[nauty]]
 arch = "aarch64"
-git-tree-sha1 = "258b9417427069a3610fd32d8df02019ad81c5bb"
+git-tree-sha1 = "8c77b6cb81c820cd64d1b59307207a40055dfac1"
 os = "macos"
 
     [[nauty.download]]
-    sha256 = "1f27b9d59092c8d016f3f805950d5ae34bbaf9c5e7b80b80ca9d2b46e06b0120"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.aarch64-apple-darwin.tar.gz"
+    sha256 = "52cf19a569351b8c785b9ddf472c00a45b8de225fae7ea04f5c22b31c845f3e2"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.aarch64-apple-darwin.tar.gz"
 [[nauty]]
 arch = "aarch64"
-git-tree-sha1 = "7f7b0b5a8ab2da7b1cdd23d7de1893e4aabff03d"
+git-tree-sha1 = "c4b71bdd251da787a3a3b347ef1558a8c81b0a93"
 libc = "glibc"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "f82dd109e2017b2567c229a50b44163562cae8448372d1476b8014897555c303"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.aarch64-linux-gnu.tar.gz"
+    sha256 = "9fc2046230838aab0c34a8e63e275f129cbde4eae4bdebd7df00373a38c407d3"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.aarch64-linux-gnu.tar.gz"
 [[nauty]]
 arch = "aarch64"
-git-tree-sha1 = "94af4101a7aa755b0c9102f8edcc36fb6ad937d4"
+git-tree-sha1 = "7b3320c264b89c35ff43b740af8db3f3d8ee28bb"
 libc = "musl"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "0b620281f4ec3d31374c4fc98b144903f6f96fcc688e4539c68051763ac957c7"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.aarch64-linux-musl.tar.gz"
+    sha256 = "db11307cb640008c26c6d4bc23662b52b77a1d5882777aeaf025ad6fc3d1d502"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.aarch64-linux-musl.tar.gz"
 [[nauty]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "6a04d95b4cacaf1d8972ca6f285da57e0d0b1d17"
+git-tree-sha1 = "4b31a00ba235b9b72289b878ed8e3545f7ac36ed"
 libc = "glibc"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "26cd33fe826e0962c0c6c2a98aa596035b1180e5fab545d2ed1c5015301eefab"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "c7ae808953173fa0a443cc793679412ce943308bd1cdcdb87c31714e86f3cc99"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.armv6l-linux-gnueabihf.tar.gz"
 [[nauty]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "35a200c1db933934710c75459d8684b9624aa909"
+git-tree-sha1 = "62d878d6f338e15127ce7ca1c9beb70241b00759"
 libc = "musl"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "eca476da6e62878ae636cfa6aa92b2c69fe25c0810bc6fbdfbbfc4523463dbbb"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "6b29dc8206a12646bd9210fae85bdb31d139ba2a36fb883ade83a3ab380cf81c"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.armv6l-linux-musleabihf.tar.gz"
 [[nauty]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "0bba013038e25f98c36e5885a232edea669690db"
+git-tree-sha1 = "d48dc1fc6c16f87891fd3df8e8993ff073956af7"
 libc = "glibc"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "c05f039fc6193a8ecdcf379ff4844f962788ac7e45b772b0a6a23c8d923ed6f1"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "8ad65fe97cacc4a679a334b2750e7f4822e42906a70d5a46c2bad9fdcec3489b"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.armv7l-linux-gnueabihf.tar.gz"
 [[nauty]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "1d8346023d62634e94132f2d119d966799213c3e"
+git-tree-sha1 = "c0792496e04fca4ae672af496124a678b5d18eea"
 libc = "musl"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "42ca4f97b31fb26203dc920c1a6d2765c8ad489c6a4b45cb97b0afdbee4cbc27"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "12ee7b70f71cb364e11a1100ee0a65074c1365fdd99f3db2b923b71eab09df57"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.armv7l-linux-musleabihf.tar.gz"
 [[nauty]]
 arch = "i686"
-git-tree-sha1 = "7ab58fcc16e002d7c448b1669450e8ae96321851"
+git-tree-sha1 = "6c314f9c85418bfb4405af8ca30f207d7d071342"
 libc = "glibc"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "af06cf112eab328cb10cb6dfde273e93ef4a20ab6fa0a97c79b9ec67d376021d"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.i686-linux-gnu.tar.gz"
+    sha256 = "f7a05a3b650256c2c7757c6330bfdd58cf88a18cee8a8694693a82d63a717810"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.i686-linux-gnu.tar.gz"
 [[nauty]]
 arch = "i686"
-git-tree-sha1 = "d7bcddb3005111b84a899299e0e779afbef8124e"
+git-tree-sha1 = "5ebee2042edc2e0aa27c75bfd82a2a9c9ed6ce79"
 libc = "musl"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "756ce2e01ca30a0cf099d68e3e69f0b67aafb340a74acf70d2367aca0165627d"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.i686-linux-musl.tar.gz"
+    sha256 = "03606bbe901789756f03771859693819b7013842dddb82244cd227be9b5c9e9e"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.i686-linux-musl.tar.gz"
 [[nauty]]
 arch = "powerpc64le"
-git-tree-sha1 = "59140b1af5b5a3d825e8e5c94c1558c75aee1013"
+git-tree-sha1 = "582882b90b35d8bf39e96c22ae474abb154bec31"
 libc = "glibc"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "56682efc746b7cf2c26af2be27610bf6ff11cff20a174a95eda3632ba6faaf7a"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "25872a1e5cbe8cff2d2b1ff93c2f0ff8b364075d385f492cf8622eaf69959fb4"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.powerpc64le-linux-gnu.tar.gz"
 [[nauty]]
 arch = "x86_64"
-git-tree-sha1 = "385ba334d798aad80a427f80c437f56170a041c4"
+git-tree-sha1 = "87a18b58cd9efcdd95d01b3321a593dccc6bf62d"
 os = "macos"
 
     [[nauty.download]]
-    sha256 = "013adae4d97a5d1eeaacc1705bbfbec1022285ce245409270835b7e41b4f94e9"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.x86_64-apple-darwin.tar.gz"
+    sha256 = "491bb0c4c655fd866191499c2e5ccc96c6b8cb682ff150c7b7de0c24c0b7057e"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.x86_64-apple-darwin.tar.gz"
 [[nauty]]
 arch = "x86_64"
-git-tree-sha1 = "6170c4f4b0ca49d13fb03151282a39379cf2907c"
+git-tree-sha1 = "d1b6aacca9b134cc6d40111b54cb0b94e7847462"
 libc = "glibc"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "5ba5ad125d4ecc110d5d3964bfb2543f9fd7c82b133f9c50ca57e4333260bb18"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.x86_64-linux-gnu.tar.gz"
+    sha256 = "27226a8d0ba23eba50d770bee000fcc90a9126f204e1af58c9d64ce5d5fb4e49"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.x86_64-linux-gnu.tar.gz"
 [[nauty]]
 arch = "x86_64"
-git-tree-sha1 = "82fd097e070460f3adf0a9f7c4eb79749cfbdf0c"
+git-tree-sha1 = "0dc75e5c7842d1ef78c70a4428258117dafa8cf9"
 libc = "musl"
 os = "linux"
 
     [[nauty.download]]
-    sha256 = "ffadccac40c98258485c66e8ae4d06047bba30863cedaf28eed8eb1bec8026c8"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.x86_64-linux-musl.tar.gz"
+    sha256 = "93082a94e129917aa0a31f3c427d3b7750bbfa64418b2f626470a249c6e522fb"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.x86_64-linux-musl.tar.gz"
 [[nauty]]
 arch = "x86_64"
-git-tree-sha1 = "87d869d319b649997b6084399b81217112615050"
+git-tree-sha1 = "a784e96f9356afa49e33068384f80117416d248a"
 os = "freebsd"
 
     [[nauty.download]]
-    sha256 = "4cfbc1b404f3b224fa541d0d19d4d4b9a576eb0bb412d2662c4102f23a0fa30d"
-    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.6.13+1/nauty.v2.6.13.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "a114bd567c769eb774b1833fa42df171151b090f1f3a87d366cbc90ec2fb1dff"
+    url = "https://github.com/JuliaBinaryWrappers/nauty_jll.jl/releases/download/nauty-v2.8.9+0/nauty.v2.8.9.x86_64-unknown-freebsd.tar.gz"
