@@ -1,6 +1,6 @@
 name = "nauty_jll"
 uuid = "55c6dc9b-343a-50ca-8ff2-b71adb3733d5"
-version = "2.8.10+0"
+version = "2.8.10+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
